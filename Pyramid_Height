@@ -1,0 +1,20 @@
+#Script Author : AROCKIA JEGAN F
+#visit_me @ www.arcokiajegan.com
+#Description --> Its a task in Cisco Python learning
+
+''' 
+Listen to this story: a boy and his father, a computer programmer, are playing with wooden blocks. They are building a pyramid.
+Their pyramid is a bit weird, as it is actually a pyramid-shaped wall – it's flat. 
+The pyramid is stacked according to one simple principle: each lower layer contains one block more than the layer above.
+Note: the height is measured by the number of fully completed layers – if the builders don't have a sufficient number of blocks and cannot complete the next layer,
+they finish their work immediately.
+'''
+blocks = int(input("Enter the blocks:"))
+
+height = 0 
+pyramid = 1 
+while pyramid <= blocks:
+    height += 1 
+    blocks -= pyramid 
+    pyramid += 1 
+print("The height of pyramid is:", height)  
