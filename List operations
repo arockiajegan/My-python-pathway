@@ -1,4 +1,5 @@
-
+#Script Author : AROCKIA JEGAN F
+#visit_me @ www.arcokiajegan.com
 '''
 step 1: create an empty list named beatles;
 step 2: use the append() method to add the following members of the band to the list: John Lennon, Paul McCartney, and George Harrison;
