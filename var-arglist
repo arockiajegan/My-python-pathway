@@ -1,0 +1,14 @@
+#Script Author : AROCKIA JEGAN F
+#visit_me @ www.arcokiajegan.com
+#def : var arg list addition basic 
+def addition(*args):
+    result = 0 
+    for arg in args:
+        result += arg
+    return result
+    
+print(addition(10,20,30))
+
+my_list=[4,5,6,8,9,1]
+
+print(addition(*my_list))
