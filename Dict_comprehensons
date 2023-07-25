@@ -1,0 +1,5 @@
+CSKBatter = {"MSD":456, "Jadeja":650, "Ruturaj":850, "Moeen": 550}
+CSKBowler = {"Deepak":18, "Dube": 20, "Deekshana": 25, "Jamisen": 12}
+
+Csk = {k: v for team in (CSKBatter, CSKBowler) for k,v in team.items()}
+print(Csk)
