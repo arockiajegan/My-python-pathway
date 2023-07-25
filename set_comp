@@ -1,0 +1,3 @@
+string_temp = "My name is Khan"
+charec = {c.upper() for c in string_temp}
+print(charec)
