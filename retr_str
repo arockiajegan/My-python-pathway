@@ -1,0 +1,17 @@
+#String retr/formating types 
+class Person(): 
+    def __init__(self):
+        self.fname="Arockia"
+        self.lname="Jegan"
+        self.age=25
+     
+    def __repr__(self):
+        return f"<Person Class- fname:{self.fname} lname:{self.lname} age:{self.age}>"
+    
+    def __str__(self):
+        return f"Person {self.fname} {self.lname} is {self.age}"
+    
+cls1=Person()
+print(repr(cls1))
+print(str(cls1))
+print(f"formatted {cls1}")
