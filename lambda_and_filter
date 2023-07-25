@@ -1,0 +1,13 @@
+#Script Author : AROCKIA JEGAN F
+#visit_me @ www.arcokiajegan.com
+#lambda & filter 
+odds = [1,3,5,7,9,11,13,15,17,19]
+evens= [2,4,6,8,10,12,14,16,18]
+
+even_squared = list(map(lambda e: e**2,
+               filter(lambda e: e>4 and e<16 , evens)))
+print(even_squared)
+
+odds_squared = list(map(lambda e: e**2,
+               filter(lambda e: e>0 and e<20 , odds)))
+print(odds_squared)
