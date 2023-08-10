@@ -1,0 +1,10 @@
+#Script Author : AROCKIA JEGAN F
+#visit_me @ www.arcokiajegan.com
+'''
+Enumerate the values between the numpy arrays
+'''
+team_name= np.array(["KIRAN","JEGAN","SRI","SRUJAN","VISHAL","SAHU"], dtype=str)
+role = np.array(["Team lead", "Developer", "WAP", "Tester" ,"Scrum Master","Disaster"], dtype=str)
+
+for i , j in enumerate (team_name):
+    print("{} role is {}". format (j,role[i]))
